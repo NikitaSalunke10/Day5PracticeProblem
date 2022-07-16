@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Day5PracticeProblem": {
+      "commandName": "Project",
+      "commandLineArgs": "5"
+    }
+  }
+}
