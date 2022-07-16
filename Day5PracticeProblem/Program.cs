@@ -1,11 +1,11 @@
-﻿char alpha;
+﻿char ch;
 Console.WriteLine("Enter the letter:");
-alpha = Char.Parse(Console.ReadLine());
-if((alpha == 'a') || (alpha == 'e') || (alpha == 'i') || (alpha == 'o') || (alpha == 'u') || (alpha == 'A') || (alpha == 'E') || (alpha == 'I') || (alpha == 'O') || (alpha == 'U'))
+ch = Char.Parse(Console.ReadLine());
+if((ch == 'a') || (ch == 'e') || (ch == 'i') || (ch == 'o') || (ch == 'u') || (ch == 'A') || (ch == 'E') || (ch == 'I') || (ch == 'O') || (ch == 'U'))
 {
-    Console.WriteLine(alpha+" is a Vowel.");
+    Console.WriteLine(ch+" is a Vowel.");
 }
 else
 {
-    Console.WriteLine(alpha+" is a Consonant.");
+    Console.WriteLine(ch+" is a Consonant.");
 }
